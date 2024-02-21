@@ -7,9 +7,11 @@ import SignUP from './pages/SignUP'
 import Dashboard from './pages/Dashboard'
 import Projects from './pages/Projects'
 import SignIN from './pages/SignIN'
+import Header from './components/Header'
 export default function App() {
   return (
     <BrowserRouter>
+    <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
